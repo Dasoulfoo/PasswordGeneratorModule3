@@ -100,7 +100,7 @@ function generatePassword() {
   if (!passwordLength) {
     alert("Required value");
   } else if (passwordLength < 8 || passwordLength > 128) {
-    passwordLength = prompt("Choose a number between 8 and 128");
+    passwordLength = prompt("Choose a number between 8 and 50");
     console.log("Password length " + passwordLength);
   } else {
     confirmLower = confirm("lower case letters?");
