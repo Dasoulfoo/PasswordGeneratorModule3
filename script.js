@@ -93,13 +93,13 @@ generateBtn.addEventListener("click", writePassword);
 function generatePassword() {
   // Ask for Input
   passwordLength = prompt(
-    "How many characters would you like your password? Choose between 8 and 128"
+    "How many characters would you like your password? Choose between 8 and 50"
   );
   console.log("Password length " + passwordLength);
 
   if (!passwordLength) {
     alert("Required value");
-  } else if (passwordLength < 8 || passwordLength > 128) {
+  } else if (passwordLength < 8 || passwordLength > 50) {
     passwordLength = prompt("Choose a number between 8 and 50");
     console.log("Password length " + passwordLength);
   } else {
