@@ -24,23 +24,11 @@ body {
 }
 
 header {
-  text-align: center;
   padding: 20px;
   padding-top: 0px;
   color: grey
 }
 
-.card {
-  background-color: white;
-  border-radius: 5px;
-  border-width: 1px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  color: grey;
-  font-size: 18px;
-  margin: 0 auto;
-  max-width: 800px;
-  padding: 30px 40px;
-}
 
 .card-header::after {
   content: " ";
@@ -73,18 +61,11 @@ header {
 }
 
 .btn {
-  border: none;
-  background-color: red;
   border-radius: 25px;
-  box-shadow: black black;
-  color: white;
   display: inline-block;
   font-size: 22px;
   line-height: 22px;
-  margin: 16px 16px 16px 20px;
-  padding: 14px 34px;
-  text-align: center;
-  cursor: pointer;
+
 }
 
 button[disabled] {
